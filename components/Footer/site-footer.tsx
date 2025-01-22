@@ -1,15 +1,9 @@
 import { siteConfig } from "@/config/site";
-import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
 import { Icons } from "../icons";
 import Link from "next/link";
 
 export function Footer() {
   const socialLinks = [
-    {
-      href: `mailto:${siteConfig.links.mail}`,
-      label: "Mail",
-      icon: <EnvelopeClosedIcon className="size-6" />,
-    },
     {
       href: siteConfig.links.twitter,
       label: "Twitter",
@@ -19,11 +13,6 @@ export function Footer() {
       href: siteConfig.links.github,
       label: "Github",
       icon: <Icons.gitHub className="size-6" />,
-    },
-    {
-      href: siteConfig.links.instagram,
-      label: "Instagram",
-      icon: <Icons.instagram className="size-6" />,
     },
   ];
 

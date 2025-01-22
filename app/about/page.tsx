@@ -37,7 +37,7 @@ export default async function About() {
         </div>
         <div className="text-muted-foreground text-lg py-4 text-balance">
           <p>
-            Hello I&apos;m No0ne003 a Front-End developer from morocco, I start
+            Hello I&apos;m neuxq a Front-End developer from morocco, I start
             with html on 08/26/2023 and I&apos;m currently practising Nextjs
             with learn based project (like this one). I Want to start Back-End
             on 2024 summer.

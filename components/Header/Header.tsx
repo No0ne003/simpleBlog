@@ -16,11 +16,6 @@ interface SocialLinkProps {
 export const socialLinks: SocialLinkProps[] = [
   { href: siteConfig.links.github, label: "GitHub", Icon: Icons.gitHub },
   { href: siteConfig.links.twitter, label: "Twitter", Icon: Icons.twitter },
-  {
-    href: siteConfig.links.instagram,
-    label: "Instagram",
-    Icon: Icons.instagram,
-  },
 ];
 
 const SocialLink: React.FC<SocialLinkProps> = ({ href, label, Icon }) => (
