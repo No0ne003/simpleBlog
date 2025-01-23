@@ -13,7 +13,7 @@ export default function Home() {
         <div className="container flex flex-col gap-6 text-center">
           <div className="space-y-2">
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-balance">
-              Hello I&apos;m Neuxq
+              Hello I&apos;m nuexq
             </h1>
             <p className="max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance">
               Welcome to my blog template. Build using tailwind, shadcn, velite
